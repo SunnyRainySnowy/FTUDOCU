@@ -1,3 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  background-color: #f7fafd;
+  color: #23395d;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 24px rgba(50,60,90,0.06);
+}
 header {
   background-color: #23395d;
   padding: 1.5rem 0 0 0;
