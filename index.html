@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Academic Materials Hub</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  <div class="logo-wrapper">
+    <img src="91657621-901B-49C3-A401-6AC96D722209.png" alt="FTUFOCU" class="logo-img">
+  </div>
+      <nav>
+        <a href="#" class="active">Feed</a>
+        <a href="#">Upload</a>
+        <a href="#">My Materials</a>
+        <a href="#">Profile</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- Search and Filter Section -->
+    <section class="search-section">
+      <input type="text" placeholder="Search study materials...">
+      <div class="filter-group">
+        <select>
+          <option selected disabled>Teacher</option>
+          <option>Thuỵ Vy</option>
+          <option>Hồng Phát</option>
+          <option>Xuân Sang</option>
+        </select>
+        <select>
+          <option selected disabled>Class</option>
+          <option>ML42</option>
+          <option>298</option>
+          <option>A090</option>
+        </select>
+        <select>
+          <option selected disabled>Subject</option>
+          <option>ESP</option>
+          <option>Physiology</option>
+          <option>Career Development</option>
+          <option>Advanced Mathematics</option>
+        </select>
+        <select>
+          <option selected disabled>Type</option>
+          <option>Lecture Notes</option>
+          <option>Assignments</option>
+          <option>Exams</option>
+          <option>Presentation</option>
+        </select>
+      </div>
+      <button type="submit">Search</button>
+    </section>
+
+    <!-- Upload Button -->
+    <button class="upload-btn">Upload Material</button>
+    
+    <!-- Feed Section (Documents) -->
+    <section>
+      <!-- Document Card 1 -->
+      <div class="document-card">
+        <div>
+          <span class="document-type-badge">Lecture Notes</span>
+          <span class="document-title">Economics</span>
+        </div>
+        <div class="document-meta">
+          Uploaded by <span class="document-uploader">Võ Thị Thiên Trang</span> &bull; ESP1 &bull; Ms.Nga
+        </div>
+        <p>
+          Detailed notes covering Chapter 1-3 of Economics. Includes diagrams and summary tables for easier reference.
+        </p>
+        <div class="like-comment-bar">
+          <button class="like-btn">&#128077; <span class="like-count">32</span></button>
+          <button class="comment-btn">&#128488; <span class="comment-count">7</span></button>
+        </div>
+        <div class="comments-section">
+          <div class="comment">
+            <span class="comment-author">Emily:</span>
+            <span class="comment-text">Super helpful for the midterm prep, thanks!</span>
+            <span class="comment-date">2 days ago</span>
+          </div>
+          <div class="comment">
+            <span class="comment-author">Mika:</span>
+            <span class="comment-text">Great summary tables.</span>
+            <span class="comment-date">1 day ago</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Document Card 2 -->
+      <div class="document-card">
+        <div>
+          <span class="document-type-badge">Presentation</span>
+          <span class="document-title">Time Managment Presentation</span>
+        </div>
+        <div class="document-meta">
+          Uploaded by <span class="document-uploader">Lâm Mỹ Tú</span> &bull; Career Development &bull; Prof. Lê
+        </div>
+        <p>
+          Presentation on the Time Managment Reflection in Career Development class.
+        </p>
+        <div class="like-comment-bar">
+          <button class="like-btn">&#128077; <span class="like-count">19</span></button>
+          <button class="comment-btn">&#128488; <span class="comment-count">2</span></button>
+        </div>
+        <div class="comments-section">
+          <div class="comment">
+            <span class="comment-author">Sara:</span>
+            <span class="comment-text">Love the organization!</span>
+            <span class="comment-date">5 hours ago</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Document Card 3 -->
+      <div class="document-card">
+        <div>
+          <span class="document-type-badge">Assignments</span>
+          <span class="document-title">Physiology</span>
+        </div>
+        <div class="document-meta">
+          Uploaded by <span class="document-uploader">Hải Đăng</span> &bull; Physiology K64 &bull; Ms. Sang
+        </div>
+        <p>
+          My notes on Chapter 3 Physiology for Freshmen.
+        </p>
+        <div class="like-comment-bar">
+          <button class="like-btn">&#128077; <span class="like-count">8</span></button>
+          <button class="comment-btn">&#128488; <span class="comment-count">0</span></button>
+        </div>
+        <div class="comments-section">
+          <!-- No comments yet -->
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
